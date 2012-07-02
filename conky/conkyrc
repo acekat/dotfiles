@@ -1,0 +1,99 @@
+#==============================================================================
+#
+#  author  : Ace
+#  comment : from original work of SLK (v2011011601)
+#  doc     : http://conky.sourceforge.net/variables.html
+#            http://conky.sourceforge.net/config_settings.html
+#
+#==============================================================================
+
+background yes
+update_interval 1
+
+cpu_avg_samples 2
+net_avg_samples 2
+temperature_unit celsius
+
+double_buffer yes
+no_buffers yes
+text_buffer_size 2048
+
+gap_x 10
+gap_y 30
+minimum_size 190 450
+maximum_width 190
+own_window yes
+own_window_type normal
+own_window_argb_visual yes
+own_window_transparent yes
+own_window_hints undecorated,sticky,skip_taskbar,skip_pager,below
+border_inner_margin 0
+border_outer_margin 0
+alignment tr
+
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+
+override_utf8_locale yes
+use_xft yes
+xftfont caviar dreams:size=8
+xftalpha 0.5
+uppercase no
+
+default_color FFFFFF
+color0 D75F00
+color1 DDDDDD
+color2 AAAAAA
+color3 888888
+color4 666666
+color5 444444
+
+lua_load ~/.dotfiles/conky/conky_graph.lua
+lua_draw_hook_post main
+
+
+TEXT
+#${voffset 35}
+#${goto 95}${color4}${font ubuntu:size=22}${time %e}${color1}${offset -50}${font ubuntu:size=10}${time %A}
+#${goto 85}${color2}${voffset -2}${font ubuntu:size=9}${time %b}${voffset -2} ${color3}${font ubuntu:size=12}${time %Y}${font}
+
+${voffset 65}
+${goto 30}${font DS\-Digital:size=30,weight:bold}${color1}${time %H}:${time %M}${voffset -18}${font DS\-Digital:size=9,weight:bold}:${time %S}${font}
+${goto 35}${voffset 20}${font Ubuntu:size=8,weight:bold}${color}${time %A} ${color0}${time %e} ${time %B}
+
+${goto 148}${voffset -21}${font Ubuntu:size=9,weight:bold}${color}°C
+
+${voffset -5}
+${goto 120}${cpugraph 20,70 666666 666666}${voffset -10}
+${goto 80}${font Ubuntu:size=7,weight:bold}${color}CPU${alignr}${threads} 
+${goto 80}${font Ubuntu:size=7,weight:normal}${color1}${top name 1}${alignr}${top cpu 1}%
+${goto 80}${font Ubuntu:size=7,weight:normal}${color2}${top name 2}${alignr}${top cpu 2}%
+${goto 80}${font Ubuntu:size=7,weight:normal}${color3}${top name 3}${alignr}${top cpu 3}%
+${goto 80}${font Ubuntu:size=7,weight:normal}${color4}${top name 4}${alignr}${top cpu 4}%
+${goto 80}${font Ubuntu:size=7,weight:normal}${color5}${top name 5}${alignr}${top cpu 5}% 
+
+${voffset 5}
+${goto 120}${memgraph 20,70 666666 666666}${voffset -5}
+${goto 80}${font Ubuntu:size=7,weight:bold}${color}MEM
+${goto 80}${font Ubuntu:size=7,weight:normal}${color1}${top_mem name 1}${alignr}${top_mem mem 1}%
+${goto 80}${font Ubuntu:size=7,weight:normal}${color2}${top_mem name 2}${alignr}${top_mem mem 2}%
+${goto 80}${font Ubuntu:size=7,weight:normal}${color3}${top_mem name 3}${alignr}${top_mem mem 3}%
+${goto 80}${font Ubuntu:size=7,weight:normal}${color4}${top_mem name 4}${alignr}${top_mem mem 4}%
+${goto 80}${font Ubuntu:size=7,weight:normal}${color5}${top_mem name 5}${alignr}${top_mem mem 5}%
+
+${voffset 6}
+${goto 120}${diskiograph 20,70 666666 666666}
+${goto 80}${voffset -3}${font Ubuntu:size=7,weight:bold}${color}DISKS
+${goto 80}${voffset 6}${font Ubuntu:size=7,weight:normal}${color}/${alignr}${color1}${fs_used /} ${color3}| ${color0}${fs_free /}
+${goto 80}${voffset 3}${font Ubuntu:size=7,weight:normal}${color}/home${alignr}${color1}${fs_used /home} ${color3}| ${color0}${fs_free /home}
+
+${goto 70}${font Ubuntu:size=18,weight:bold}${color3}NET${alignr}${color2}${font Ubuntu:size=7,weight:bold}${color1}${if_up eth0}eth ${addr eth0} ${endif}${if_up wlan0}wifi ${addr wlan0}${endif}
+${goto 70}${upspeedgraph 20,60 666666 666666}${downspeedgraph 20,60 666666 666666}
+
+#${goto 90}${font Ubuntu:size=7,weight:bold}${color}open ports: ${alignr}${color2}${tcp_portmon 1 65535 count}
+#${goto 90}${font Ubuntu:size=7,weight:bold}${color}${offset 10}IP${alignr}DPORT
+#${goto 90}${font Ubuntu:size=7,weight:normal}${color1}${tcp_portmon 1 65535 rip  0}${alignr 1}${tcp_portmon 1 65535 rport  0}
+#${goto 90}${font Ubuntu:size=7,weight:normal}${color1}${tcp_portmon 1 65535 rip  1}${alignr 1}${tcp_portmon 1 65535 rport  1}
+#...
