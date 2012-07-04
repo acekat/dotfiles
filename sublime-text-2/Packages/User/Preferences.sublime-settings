@@ -1,3 +1,18 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme"
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"fallback_encoding": "Western (ISO 8859-1)",
+	"font_face": "Ubuntu Mono",
+    "font_size": 11,
+    "highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+    "margin": 0,
+	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
+	"remember_open_files": false
 }

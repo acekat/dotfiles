@@ -1,47 +1,93 @@
 {
 	"folder_history":
 	[
+		"/home/ace/.dotfiles/conky",
+		"/home/ace/.qmmp/cache/skin",
+		"/home/ace/.dotfiles/sublime-text-2/Packages/User",
+		"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/User",
+		"/home/ace/Téléchargements/conky___geek_inside_by_fenouille84-d3ae83i",
+		"/home/ace/.dotfiles"
 	],
-	"last_window_id": 1,
+	"last_window_id": 5,
 	"settings":
 	{
-	},
-	"windows":
-	[
+		"new_window_height": 765.0,
+		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"rec",
+						"rec_height"
+					],
+					[
+						"rec_",
+						"rec_width"
+					],
+					[
+						"else",
+						"elseif"
+					],
+					[
+						"value",
+						"value_height"
+					],
+					[
+						"tri",
+						"tri_height"
+					]
 				]
 			},
-			"buffers":
-			[
-				{
-					"file": "/home/ace/.dotfiles/README.md",
-					"settings":
-					{
-						"buffer_size": 415,
-						"line_ending": "Unix"
-					}
-				}
-			],
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 54.0,
+				"height": 159.0,
 				"selected_items":
 				[
+					[
+						"wra",
+						"Word Wrap: Toggle"
+					],
+					[
+						"wrap",
+						"Word Wrap: Toggle"
+					],
+					[
+						"pack",
+						"Package Control: List Packages"
+					],
+					[
+						"pac",
+						"Package Control: List Packages"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"git",
+						"Git: Status"
+					],
+					[
+						"git st",
+						"Git: Status"
+					],
 					[
 						"packa",
 						"Preferences: Browse Packages"
 					]
 				],
-				"width": 392.0
+				"width": 593.0
 			},
 			"console":
 			{
-				"height": 0.0
+				"height": 321.0
 			},
 			"distraction_free":
 			{
@@ -54,10 +100,35 @@
 			},
 			"file_history":
 			[
-				"/home/ace/.dotfiles/vim/solarized(Ace-modif).vim",
-				"/home/ace/.dotfiles/vim/bundle/solarized-theme/colors/solarized.vim",
-				"/home/ace/.dotfiles/.gitmodules",
+				"/home/ace/.dotfiles/conky/conkyrc",
+				"/home/ace/.dotfiles/conky/conky_graph.lua",
+				"/usr/share/gnome-shell/theme/gnome-shell.css",
+				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
 				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/User/Jade.sublime-settings",
+				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/Default/Preferences (Linux).sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Preferences (Linux).sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/JSON.sublime-settings",
+				"/home/ace/.dotfiles/README.md",
+				"/home/ace/Téléchargements/Conky-lua/Conky ubuntu-lua/conkyrc",
+				"/home/ace/.solarized/README.md",
+				"/home/ace/.conky/tuto-params-lua.txt",
+				"/home/ace/.conky/conky_rings.lua",
+				"/home/ace/.dotfiles/conky/.conkyrc",
+				"/home/ace/.conkyrc",
+				"/home/ace/.conky/conkyrc_orange",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Theme - Default/Default.sublime-theme",
+				"/home/ace/examples.desktop",
+				"/home/ace/.conky/conky_orange.lua",
+				"/home/ace/Téléchargements/Conky-lua/Conky ubuntu-lua/clock_rings.lua",
+				"/etc/modules",
+				"/home/ace/.dotfiles/vim/bundle/solarized-theme/colors/solarized.vim",
+				"/home/ace/.dotfiles/vim/solarized(Ace-modif).vim",
+				"/home/ace/.dotfiles/.gitmodules",
 				"/home/ace/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 				"/home/ace/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 				"/home/ace/.dotfiles-old/.gitmodules",
@@ -73,7 +144,7 @@
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 35.0
 			},
 			"find_in_files":
 			{
@@ -87,6 +158,12 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"right",
+					"duplicate",
+					"color",
+					"title",
+					"theme",
+					"}%\n",
 					"dirty"
 				],
 				"highlight": true,
@@ -102,49 +179,13 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"groups":
-			[
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"file": "/home/ace/.dotfiles/README.md",
-							"settings":
-							{
-								"buffer_size": 415,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										60,
-										60
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Markdown/Markdown.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				}
-			],
 			"incremental_find":
 			{
 				"height": 0.0
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 32.0
 			},
 			"layout":
 			{
@@ -169,10 +210,9 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,1,0,0,0,0,0,0,0,1280,800",
 			"replace":
 			{
-				"height": 0.0
+				"height": 64.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -191,14 +231,243 @@
 				],
 				"width": 380.0
 			},
-			"show_minimap": true,
-			"show_open_files": false,
+			"show_minimap": false,
+			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 126.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 1077.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"rec",
+						"rec_height"
+					],
+					[
+						"rec_",
+						"rec_width"
+					],
+					[
+						"else",
+						"elseif"
+					],
+					[
+						"value",
+						"value_height"
+					],
+					[
+						"tri",
+						"tri_height"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 159.0,
+				"selected_items":
+				[
+					[
+						"wra",
+						"Word Wrap: Toggle"
+					],
+					[
+						"wrap",
+						"Word Wrap: Toggle"
+					],
+					[
+						"pack",
+						"Package Control: List Packages"
+					],
+					[
+						"pac",
+						"Package Control: List Packages"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"git",
+						"Git: Status"
+					],
+					[
+						"git st",
+						"Git: Status"
+					],
+					[
+						"packa",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 593.0
+			},
+			"console":
+			{
+				"height": 321.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/ace/.dotfiles/conky/conkyrc",
+				"/home/ace/.dotfiles/conky/conky_graph.lua",
+				"/usr/share/gnome-shell/theme/gnome-shell.css",
+				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/User/Jade.sublime-settings",
+				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/Default/Preferences (Linux).sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Preferences (Linux).sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/JSON.sublime-settings",
+				"/home/ace/.dotfiles/README.md",
+				"/home/ace/Téléchargements/Conky-lua/Conky ubuntu-lua/conkyrc",
+				"/home/ace/.solarized/README.md",
+				"/home/ace/.conky/tuto-params-lua.txt",
+				"/home/ace/.conky/conky_rings.lua",
+				"/home/ace/.dotfiles/conky/.conkyrc",
+				"/home/ace/.conkyrc",
+				"/home/ace/.conky/conkyrc_orange",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Theme - Default/Default.sublime-theme",
+				"/home/ace/examples.desktop",
+				"/home/ace/.conky/conky_orange.lua",
+				"/home/ace/Téléchargements/Conky-lua/Conky ubuntu-lua/clock_rings.lua",
+				"/etc/modules",
+				"/home/ace/.dotfiles/vim/bundle/solarized-theme/colors/solarized.vim",
+				"/home/ace/.dotfiles/vim/solarized(Ace-modif).vim",
+				"/home/ace/.dotfiles/.gitmodules",
+				"/home/ace/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/ace/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/ace/.dotfiles-old/.gitmodules",
+				"/home/ace/.profile",
+				"/home/ace/.dotfiles/.bashrc",
+				"/home/ace/.viminfo",
+				"/home/ace/.bash_logout",
+				"/home/ace/.bash_history",
+				"/home/ace/.dotfiles-old/vimrc",
+				"/home/ace/.bashrc",
+				"/home/ace/.dotfiles-old/bashrc",
+				"/home/ace/ace"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"right",
+					"duplicate",
+					"color",
+					"title",
+					"theme",
+					"}%\n",
+					"dirty"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 32.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,1,0,0,0,0,0,1077,765,1280,800",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": false,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 126.0,
 			"status_bar_visible": true,
-			"window_id": 1,
-			"workspace_name": ""
+			"window_id": 4
 		}
 	],
 	"workspaces":
