@@ -1,6 +1,15 @@
 {
 	"folder_history":
 	[
+		"/usr/share/themes/Ambiance/gtk-3.0",
+		"/usr/share/themes/Ambiance",
+		"/usr/share/gnome-shell/theme",
+		"/home/ace/Prog/GTK/helloworld",
+		"/home/ace/.myconfig/themes/ZukiAce-Shell",
+		"/home/ace/.myconfig/gnome-shell/extensions",
+		"/usr/share/gnome-shell/js",
+		"/home/ace/.local/share/gnome-shell/extensions/first@acekat.fr",
+		"/home/ace/.myconfig/gnome-shell/extensions/first@acekat.fr",
 		"/home/ace/.dotfiles/conky",
 		"/home/ace/.qmmp/cache/skin",
 		"/home/ace/.dotfiles/sublime-text-2/Packages/User",
@@ -8,10 +17,10 @@
 		"/home/ace/Téléchargements/conky___geek_inside_by_fenouille84-d3ae83i",
 		"/home/ace/.dotfiles"
 	],
-	"last_window_id": 5,
+	"last_window_id": 6,
 	"settings":
 	{
-		"new_window_height": 765.0,
+		"new_window_height": 0.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -43,9 +52,25 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 159.0,
+				"height": 392.0,
 				"selected_items":
 				[
+					[
+						"pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"lin",
+						"SublimeLinter: Reset"
+					],
+					[
+						"lint",
+						"SublimeLinter: Reset"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
 					[
 						"wra",
 						"Word Wrap: Toggle"
@@ -56,10 +81,6 @@
 					],
 					[
 						"pack",
-						"Package Control: List Packages"
-					],
-					[
-						"pac",
 						"Package Control: List Packages"
 					],
 					[
@@ -100,6 +121,30 @@
 			},
 			"file_history":
 			[
+				"/usr/share/themes/Ambiance/gtk-3.0/apps/unity-greeter.css",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/usr/share/gnome-shell/theme/gtk-keys.css",
+				"/usr/share/gnome-shell/theme/gtk-key.css",
+				"/usr/share/themes/Ambiance/gtk-3.0/assets/scrollbar_handle.png",
+				"/home/ace/.myconfig/themes/ZukiAce-Shell/gnome-shell/switch-off.png",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SublimeLinter/README.md",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/SublimeLinter.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/ace/.myconfig/gnome-shell/extensions/ls_extensions.py",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SublimeLinter/Default (Linux).sublime-keymap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-mousemap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/sublime-V8/JSHINT.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/JSON.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Base File.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Alignment/Base File.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Python.sublime-settings",
 				"/home/ace/.dotfiles/conky/conkyrc",
 				"/home/ace/.dotfiles/conky/conky_graph.lua",
 				"/usr/share/gnome-shell/theme/gnome-shell.css",
@@ -108,11 +153,8 @@
 				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
 				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/User/Jade.sublime-settings",
 				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
-				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
-				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/Default/Preferences (Linux).sublime-settings",
 				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Preferences (Linux).sublime-settings",
-				"/home/ace/.dotfiles/sublime-text-2/Packages/User/JSON.sublime-settings",
 				"/home/ace/.dotfiles/README.md",
 				"/home/ace/Téléchargements/Conky-lua/Conky ubuntu-lua/conkyrc",
 				"/home/ace/.solarized/README.md",
@@ -158,6 +200,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"link",
 					"right",
 					"duplicate",
 					"color",
@@ -231,14 +274,14 @@
 				],
 				"width": 380.0
 			},
-			"show_minimap": false,
+			"show_minimap": true,
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 126.0,
+			"side_bar_width": 149.0,
 			"status_bar_visible": true
 		},
-		"new_window_width": 1077.0
+		"new_window_width": 0.0
 	},
 	"windows":
 	[
@@ -272,9 +315,25 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 159.0,
+				"height": 392.0,
 				"selected_items":
 				[
+					[
+						"pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"lin",
+						"SublimeLinter: Reset"
+					],
+					[
+						"lint",
+						"SublimeLinter: Reset"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
 					[
 						"wra",
 						"Word Wrap: Toggle"
@@ -285,10 +344,6 @@
 					],
 					[
 						"pack",
-						"Package Control: List Packages"
-					],
-					[
-						"pac",
 						"Package Control: List Packages"
 					],
 					[
@@ -329,6 +384,30 @@
 			},
 			"file_history":
 			[
+				"/usr/share/themes/Ambiance/gtk-3.0/apps/unity-greeter.css",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/usr/share/gnome-shell/theme/gtk-keys.css",
+				"/usr/share/gnome-shell/theme/gtk-key.css",
+				"/usr/share/themes/Ambiance/gtk-3.0/assets/scrollbar_handle.png",
+				"/home/ace/.myconfig/themes/ZukiAce-Shell/gnome-shell/switch-off.png",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SublimeLinter/README.md",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/SublimeLinter.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/ace/.myconfig/gnome-shell/extensions/ls_extensions.py",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SublimeLinter/Default (Linux).sublime-keymap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-mousemap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/sublime-V8/JSHINT.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/JSON.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Base File.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/Alignment/Base File.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Python.sublime-settings",
 				"/home/ace/.dotfiles/conky/conkyrc",
 				"/home/ace/.dotfiles/conky/conky_graph.lua",
 				"/usr/share/gnome-shell/theme/gnome-shell.css",
@@ -337,11 +416,8 @@
 				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
 				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/User/Jade.sublime-settings",
 				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
-				"/home/ace/.dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
-				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 				"/home/ace/Documents/old-dotfiles/sublime-text-2/Packages/Default/Preferences (Linux).sublime-settings",
 				"/home/ace/.dotfiles/sublime-text-2/Packages/Default/Preferences (Linux).sublime-settings",
-				"/home/ace/.dotfiles/sublime-text-2/Packages/User/JSON.sublime-settings",
 				"/home/ace/.dotfiles/README.md",
 				"/home/ace/Téléchargements/Conky-lua/Conky ubuntu-lua/conkyrc",
 				"/home/ace/.solarized/README.md",
@@ -387,6 +463,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"link",
 					"right",
 					"duplicate",
 					"color",
@@ -439,7 +516,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,1,0,0,0,0,0,1077,765,1280,800",
+			"position": "0,1,0,0,0,0,0,0,0,1280,800",
 			"replace":
 			{
 				"height": 64.0
@@ -461,13 +538,13 @@
 				],
 				"width": 380.0
 			},
-			"show_minimap": false,
+			"show_minimap": true,
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 126.0,
+			"side_bar_width": 149.0,
 			"status_bar_visible": true,
-			"window_id": 4
+			"window_id": 6
 		}
 	],
 	"workspaces":
