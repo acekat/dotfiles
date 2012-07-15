@@ -61,7 +61,7 @@ TEXT
 
 ${voffset 65}
 ${goto 30}${font DS\-Digital:size=30,weight:bold}${color1}${time %H}:${time %M}${voffset -18}${font DS\-Digital:size=9,weight:bold}:${time %S}${font}
-${goto 35}${voffset 20}${font Ubuntu:size=8,weight:bold}${color}${time %A} ${color0}${time %e} ${time %B}
+${goto 35}${voffset 20}${font Ubuntu:size=8,weight:bold}${color}${time %a} ${color0}${time %e} ${time %B}
 
 ${goto 148}${voffset -21}${font Ubuntu:size=9,weight:bold}${color}°C
 
