@@ -13,7 +13,6 @@ ln -s ~/.dotfiles/vimrc ~/.vimrc
 ln -s ~/.dotfiles/bashrc ~/.bashrc
 ln -s ~/.dotfiles/dircolors ~/.dircolors
 ln -s ~/.dotfiles/gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/sublime-text-2 ~/.config/sublime-text-2
 ln -s ~/.dotfiles/conky/conkyrc ~/.conkyrc
 ```
 
