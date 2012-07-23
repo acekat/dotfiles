@@ -92,7 +92,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 
 # variable équivalente à PATH pour des dossiers
-#export CDPATH=~:/home/ace/Docs/Cours/UPMC/M1/S2
+export CDPATH=~:/home/ace/Etudes/UPMC/M1/S2
 
 # add vcprompt to PATH
 PATH="$PATH:$HOME/.dotfiles/bin"
