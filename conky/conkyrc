@@ -86,8 +86,8 @@ ${goto 80}${font Ubuntu:size=7,weight:normal}${color5}${top_mem name 5}${alignr}
 ${voffset 6}
 ${goto 120}${diskiograph 20,70 666666 666666}
 ${goto 80}${voffset -3}${font Ubuntu:size=7,weight:bold}${color}DISKS
-${goto 80}${voffset 6}${font Ubuntu:size=7,weight:normal}${color}/${alignr}${color1}${fs_used /} ${color3}| ${color0}${fs_free /}
-${goto 80}${voffset 3}${font Ubuntu:size=7,weight:normal}${color}/home${alignr}${color1}${fs_used /home} ${color3}| ${color0}${fs_free /home}
+${goto 80}${voffset 6}${font Ubuntu:size=7,weight:normal}${color}/home${alignr}${color1}${fs_used /home} ${color3}| ${color0}${fs_free /home}
+${goto 80}${voffset 3}${font Ubuntu:size=7,weight:normal}${color}/${alignr}${color1}${fs_used /} ${color3}| ${color0}${fs_free /}
 
 ${goto 70}${font Ubuntu:size=18,weight:bold}${color3}NET${alignr}${color2}${font Ubuntu:size=7,weight:bold}${color1}${if_up eth0}eth ${addr eth0} ${endif}${if_up wlan0}wifi ${addr wlan0}${endif}
 ${goto 70}${upspeedgraph 20,60 666666 666666}${downspeedgraph 20,60 666666 666666}
