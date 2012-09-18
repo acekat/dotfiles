@@ -11,3 +11,5 @@
 	br = branch
 [credential]
 	helper = cache
+[push]
+	default = current
