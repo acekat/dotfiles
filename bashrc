@@ -82,7 +82,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # variable équivalente à PATH pour des dossiers
-export CDPATH=~:/home/ace/Etudes/UPMC/M2/V1
+export CDPATH=~:/home/ace/Etudes/UPMC/M2/V1:/home/ace/Etudes/UPMC/M2/V2
 
 # add vcprompt to PATH
 PATH="$PATH:$HOME/.dotfiles/bin"
