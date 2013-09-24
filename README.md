@@ -3,7 +3,7 @@ Installation
 
 As simple as
 ```bash
-git clone git://github.com/Acekat/dotfiles.git ~/.dotfiles
+git clone https://github.com/Acekat/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles && ./setup
 ```
 
