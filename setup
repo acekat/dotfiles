@@ -1,0 +1,68 @@
+#!/bin/bash
+
+# FUNCTIONS
+# =========
+
+# Pretty print
+print_info() {
+    printf "\n\e[0;33m ${1}\e[0m"
+}
+
+# Symlinking with force
+function link() {
+  ln -fs "${HOME}/.dotfiles/${1}" "${HOME}/${2}"
+}
+
+# Mirroring dotfiles
+function mirror_files() {
+  print_info "Linking dotfiles...\n"
+  # Force remove the vim directory if it's already there.
+  if [ -e "${HOME}/.vim" ]; then
+    rm -rf "${HOME}/.vim"
+  fi
+
+  # Create the necessary symbolic links between the `.dotfiles` and `HOME`
+  # directory. The `bash_profile` sources other files directly from the
+  # `.dotfiles` repository.
+  link "bash/bashrc"        ".bashrc"
+  link "bash/profile"       ".bash_profile"
+  link "git/gitconfig"      ".gitconfig"
+  link "git/gitignore"      ".gitignore"
+  # link "vim"                ".vim"
+  # link "vim/vimrc"          ".vimrc"
+}
+
+# Setting Terminal.app preferences
+function set_terminal_preferences() {
+  print_info "Setting Terminal preferences...\n"
+  # Make the focus automatically follow the mouse
+  defaults write com.apple.terminal FocusFollowsMouse -string true
+
+  # Only use UTF-8
+  defaults write com.apple.terminal StringEncodings -array 4
+
+  # Use a custom theme
+  open "Solarized Dark.terminal"
+  sleep 1 # Wait a bit to make sure the theme is loaded
+  defaults write com.apple.terminal "Default Window Settings" -string "Solarized Dark"
+  defaults write com.apple.terminal "Startup Window Settings" -string "Solarized Dark"
+}
+
+
+# MAIN
+# ====
+
+# Update local repo
+print_info "Updating local repository...\n"
+git pull
+# git submodule --quiet update --init --recursive
+
+# Link dotfiles
+print_info "This may overwrite existing files in your home directory.\n Are you sure? (y/n) "
+read -n 1
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+  set_terminal_preferences
+  mirror_files
+  source ${HOME}/.bash_profile
+fi

@@ -1,0 +1,46 @@
+[user]
+    name = Acekat
+    email = ace.no.val@example.com
+
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+
+[color]
+    ui = true
+
+[color "branch"]
+    current = green bold
+    local = green
+    remote = yellow
+
+[color "diff"]
+    frag = magenta
+    meta = yellow
+    new = green
+    old = red
+
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = red
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+
+[credential]
+    helper = cache
+
+[push]
+    default = current
+    
+[pretty]
+    # Custom log output
+    custom = "%C(magenta)%h %C(yellow)%an %C(reset)-%C(red)%d %C(green)%s %C(reset)(%ar)"
+    # %an => author name
+    # %s  => message
+    # %ar => date (relative)
+    # %d  => decorations (branch, heads or tags)
+    # %h  => hash (abbreviated)

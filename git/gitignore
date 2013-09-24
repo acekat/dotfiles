@@ -1,0 +1,8 @@
+# Useful `.gitignore` templates:
+# https://github.com/github/gitignore
+
+*~
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes

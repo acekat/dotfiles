@@ -1,1 +1,4 @@
-bin/eclipse
+zsh/*
+conky/*
+vim/*
+
