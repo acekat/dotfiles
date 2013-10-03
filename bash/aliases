@@ -27,6 +27,13 @@ elif [ "$os" == "mac" ]; then
 fi
 
 
+# Local server
+# ------------
+
+alias sstart="sudo apachectl start"
+alias sstop="sudo apachectl stop"
+
+
 # Git
 # ---
 
