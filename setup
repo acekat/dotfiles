@@ -41,6 +41,9 @@ function set_terminal_preferences() {
   # Only use UTF-8
   defaults write com.apple.terminal StringEncodings -array 4
 
+  # Remove the 'Last login' message
+  touch ~/.hushlogin
+
   # Use a custom theme
   open "Solarized Dark.terminal"
   sleep 1 # Wait a bit to make sure the theme is loaded
