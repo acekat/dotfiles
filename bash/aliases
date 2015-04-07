@@ -52,7 +52,7 @@ alias gba="git branch -a"
 alias gbd="git branch -D"
 alias gco="git checkout"
 alias gcob="git checkout -b"
-alias gl="git log --pretty=custom --graph"
+alias gl="git log --pretty=format --graph --date=local"
 alias gcd='cd "`git rev-parse --show-toplevel`"'
 
 

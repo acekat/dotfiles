@@ -1,6 +1,6 @@
 [user]
-    name = Acekat
-    email = ace.no.val@gmail.com
+    name = Valentin Cassat
+    email = valentin.cassat@paris.fr
 
 [core]
     editor = vim
@@ -35,12 +35,27 @@
 
 [push]
     default = current
+
+[pull]
+    rebase = true
     
 [pretty]
     # Custom log output
-    custom = "%C(magenta)%h %C(yellow)%an %C(reset)-%C(red)%d %C(green)%s %C(reset)(%ar)"
-    # %an => author name
-    # %s  => message
-    # %ar => date (relative)
-    # %d  => decorations (branch, heads or tags)
-    # %h  => hash (abbreviated)
+    format = "%C(magenta)%h %C(yellow)%an %C(reset)-%C(red)%d %C(green)%s %C(reset)(%ad)"
+
+# %H => Commit hash
+# %h => Abbreviated commit hash
+# %T => Tree hash
+# %t => Abbreviated tree hash
+# %P => Parent hashes
+# %p => Abbreviated parent hashes
+# %an => Author name
+# %ae => Author e-mail
+# %ad => Author date (format respects the –date= option)
+# %ar => Author date, relative
+# %cn => Committer name
+# %ce => Committer email
+# %cd => Committer date
+# %cr => Committer date, relative
+# %s => Subject
+# %d => Decorations (branch, heads or tags)
