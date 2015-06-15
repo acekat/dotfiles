@@ -52,6 +52,9 @@ alias gba="git branch -a"
 alias gbd="git branch -D"
 alias gco="git checkout"
 alias gcob="git checkout -b"
+alias gss="git stash"
+alias gsl="git stash list"
+alias gsd="git stash drop"
 alias gl="git log --pretty=format --graph --date=local"
 alias gcd='cd "`git rev-parse --show-toplevel`"'
 
@@ -61,6 +64,7 @@ alias gcd='cd "`git rev-parse --show-toplevel`"'
 
 alias e="vim"
 alias g="git"
+alias gti="git"
 alias l="ls -CF"
 alias ll="ls -alF"
 alias la="ls -A"
