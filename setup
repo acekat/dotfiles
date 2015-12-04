@@ -45,7 +45,7 @@ function set_terminal_preferences() {
   touch ~/.hushlogin
 
   # Use a custom theme
-  open "Solarized Dark.terminal"
+  open "./themes/Solarized Dark.terminal"
   sleep 1 # Wait a bit to make sure the theme is loaded
   defaults write com.apple.terminal "Default Window Settings" -string "Solarized Dark"
   defaults write com.apple.terminal "Startup Window Settings" -string "Solarized Dark"
