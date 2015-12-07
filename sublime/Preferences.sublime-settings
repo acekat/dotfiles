@@ -1,4 +1,5 @@
 {
+	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/Solarize (dark).tmTheme",
 	"font_face": "hack",
 	"font_options":
