@@ -45,6 +45,7 @@
 [pretty]
     # Custom log output
     format = "%C(magenta)%h %C(yellow)%an %C(reset)-%C(red)%d %C(green)%s %C(reset)(%ad)"
+    print = "%h %an -%d %s (%ad)"
 
 # %H => Commit hash
 # %h => Abbreviated commit hash

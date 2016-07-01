@@ -57,6 +57,7 @@ alias gsp="git stash pop"
 alias gsl="git stash list"
 alias gsd="git stash drop"
 alias gl="git log --pretty=format --graph --date=local"
+alias gln="gl --name-only"
 alias gcd='cd "`git rev-parse --show-toplevel`"'
 
 
