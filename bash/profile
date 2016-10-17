@@ -8,13 +8,14 @@ source_bash_files() {
   local osname="$(uname -s)"
 
   declare -a files=(
+    # "git-prompt.sh"
+    "git-completion.bash"
     "aliases"
     "exports"
     "options"
-    "git-completion.bash"
     "prompt"
     # "bash.local"    # for local settings that are not under
-                    # version control (e.g. git credentials)
+                      # version control (e.g. git credentials)
   )
 
   # Some things are OS specific, deal with it

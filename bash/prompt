@@ -95,6 +95,9 @@ prompt_git() {
     #   sense / don't work in the .git directory )
     if [ "$(git rev-parse --is-inside-git-dir 2> /dev/null)" == "false" ]; then
 
+      # Ensure index is up to date
+      git update-index --really-refresh -q &>/dev/null
+
       # Check for uncommitted changes in the index
       if ! $(git diff --quiet --ignore-submodules --cached); then
         s="$s+";
@@ -189,6 +192,7 @@ set_prompts() {
     PS1+="\[$reset\]: "
   fi
   PS1+="\[$green\]\w "                        # working directory
+  # PS1+="\$(__git_ps1 \"$orange%s\")"          # git repository details
   PS1+="\$(prompt_git \"$orange\")"           # git repository details
   PS1+="\n"
   PS1+="\[$reset$white\]➥ "                   # prompt

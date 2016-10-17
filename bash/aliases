@@ -43,8 +43,8 @@ alias gc="git commit -m"
 alias gca="git commit -a -m"
 alias gd="git diff"
 alias gm="git merge --no-ff"
-alias gpt="git push --tags"
 alias gph="git push"
+alias gpt="git push --tags"
 alias gpl="git pull"
 alias grh="git reset --hard"
 alias gb="git branch"
@@ -59,6 +59,15 @@ alias gsd="git stash drop"
 alias gl="git log --pretty=format --graph --date=local"
 alias gln="gl --name-only"
 alias gcd='cd "`git rev-parse --show-toplevel`"'
+
+# add completion on git aliases
+if type __git_complete > /dev/null 2>&1; then
+  __git_complete gph _git_push
+  __git_complete gpt _git_push --tags
+  __git_complete gpl _git_pull
+  __git_complete gco _git_checkout
+  __git_complete gbd _git_branch -D
+fi
 
 
 # Shorter Commands
