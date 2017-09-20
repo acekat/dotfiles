@@ -11,7 +11,7 @@ cd !$
 Sublime Text
 ------------
 
-[ST3](http://www.sublimetext.com/3) *beta*
+[ST3](http://www.sublimetext.com/3)
 
 Symlink binary:
 ```bash
@@ -19,22 +19,32 @@ ln -s /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl ~/.dotfiles
 ```
 
 ### Packages
-Manual installation of [Package Control](https://sublime.wbond.net/installation) from [@wbond](https://github.com/wbond) (Will Bond).
-
-Useful packages:
-* Theme - Minimal
+Manual installation of [Package Control](https://packagecontrol.io/installation)
 
 
-nodejs
+nodeJS
 ------
 
-[n](https://github.com/visionmedia/n) from [@visionmedia](https://github.com/visionmedia) (TJ Holowaychuk)
+[n](https://github.com/tj/n) via [n-install](https://github.com/mklement0/n-install)
+
+`$N_PREFIX` is set to `~/.n` in `bash/exports`
+
+
+ruby
+------
+
+[rbenv](https://github.com/rbenv/rbenv)
 ```bash
-mkdir -p ~/Dev/nodejs
-cd !$
-git clone https://github.com/visionmedia/n.git
-cd n && sudo make install
-sudo n stable
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+cd ~/.rbenv && src/configure && make -C src
+~/.rbenv/bin/rbenv init
+```
+
+[ruby-build](https://github.com/rbenv/ruby-build) as a rbenv plugin
+```bash
+mkdir -p "$(rbenv root)"/plugins
+cd ~/.rbenv && src/configure && make -C src
+git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 ```
 
 
@@ -63,7 +73,7 @@ ln -s ~/Dev/PHP ~/Sites
 ```
 Projects in this folder will be accessible at `localhost/~acekat/`.
 
-Aliases from dotfiles to start: `sstart` and stop: `sstop` the local apache web server.  
+Aliases from dotfiles to start: `sstart` and stop: `sstop` the local apache web server.
 Restart the server for configuration to take effect.
 
 

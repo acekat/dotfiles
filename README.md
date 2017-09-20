@@ -20,7 +20,7 @@ Mainly forking:
 Ideas from:
 * [@mathiasbynens](https://github.com/mathiasbynens) (Mathias Bynens)
   [dotfiles](https://github.com/mathiasbynens/dotfiles)
-* [@visionmedia](https://github.com/visionmedia) (TJ Holowaychuk)
+* [@tj](https://github.com/tj) (TJ Holowaychuk)
   [git aliases](http://tjholowaychuk.com/post/26904939933/git-extras-introduction-screencast)
 * [@sindresorhus](https://github.com/sindresorhus) (Sindre Sorhus)
   [zsh prompt](https://github.com/sindresorhus/pure)
@@ -29,6 +29,6 @@ Ideas from:
 TO-DO
 -----
 
-* improve Terminal colors 
+* improve Terminal colors
 * add vim configuration
 * add ST configuration

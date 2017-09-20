@@ -57,3 +57,6 @@ fi
 
 source_bash_files
 unset source_bash_files
+
+# Load rbenv
+eval "$(rbenv init -)"

@@ -38,6 +38,17 @@ export LESS_TERMCAP_me=$'\E[0m'      # end bold mode
 # shells instead of the default "last window closed" history
 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
+# SSL
+export SSL_LOCALHOST_CRT="${HOME}/.dotfiles/ssl/localhost.crt"
+export SSL_LOCALHOST_KEY="${HOME}/.dotfiles/ssl/localhost.key"
+
+# nodejs versionning with n
+export N_PREFIX="${HOME}/.n"
+export PATH="${N_PREFIX}/bin:${PATH}"
+
+# ruby versionning with rbenv
+export PATH="${HOME}/.rbenv/bin:${PATH}"
+
 # LightTable
 export LT_HOME="${HOME}/Dev/LightTable"
 
