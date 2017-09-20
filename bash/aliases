@@ -42,6 +42,7 @@ alias gst="git status"
 alias gc="git commit -m"
 alias gca="git commit -a -m"
 alias gd="git diff"
+alias gdn="git diff --name-status"
 alias gm="git merge --no-ff"
 alias gph="git push"
 alias gpt="git push --tags"
@@ -57,7 +58,7 @@ alias gsp="git stash pop"
 alias gsl="git stash list"
 alias gsd="git stash drop"
 alias gl="git log --pretty=format --graph --date=local"
-alias gln="gl --name-only"
+alias gln="gl --name-status"
 alias gcd='cd "`git rev-parse --show-toplevel`"'
 
 # add completion on git aliases
