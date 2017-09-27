@@ -83,7 +83,9 @@ alias la="ls -A"
 alias m="man"
 alias q="exit"
 alias :q="exit"
-alias rm="rm -rf"
+#alias rm="rm -rf"
+alias r="rails"
+alias raisl="rails"
 
 # OS / OS distribution specific commands
 if [[ "$os" == "linux" && "$distro" == "ubuntu" ]]; then
