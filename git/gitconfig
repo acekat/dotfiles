@@ -63,3 +63,8 @@
 # %cr => Committer date, relative
 # %s => Subject
 # %d => Decorations (branch, heads or tags)
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
