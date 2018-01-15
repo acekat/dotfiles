@@ -34,6 +34,16 @@ alias sstart="sudo apachectl start"
 alias sstop="sudo apachectl stop"
 
 
+# Brew services
+# -------------
+
+alias bsl="brew services list"
+# brew services start <formula>
+alias bsstart="brew services start"
+# brew services stop <formula>
+alias bsstop="brew services stop"
+
+
 # Git
 # ---
 
