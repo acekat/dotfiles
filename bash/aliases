@@ -63,6 +63,7 @@ alias gba="git branch -a"
 alias gbd="git branch -D"
 alias gco="git checkout"
 alias gcob="git checkout -b"
+alias grp="git remote prune"
 alias gss="git stash"
 alias gsp="git stash pop"
 alias gsl="git stash list"
@@ -86,7 +87,6 @@ fi
 
 alias d="docker"
 alias da="docker ps -a"
-alias dsa="docker stop $(docker ps -a -q)"
 alias dcp="docker container prune"
 alias di="docker images"
 alias dip="docker image prune"
@@ -95,6 +95,7 @@ alias dcup="docker-compose up"
 alias dcupb="docker-compose up --build"
 alias dcdown="docker-compose down"
 alias dcrun="docker-compose run"
+dsa() { docker stop $(docker ps -aq); }
 
 
 # Rails
