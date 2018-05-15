@@ -1,0 +1,23 @@
+// SublimeLinter Settings - User
+{
+  "styles": [
+    {
+      "mark_style": "stippled_underline",
+      "priority": 1,
+      "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
+      "icon": "dot",
+      "types": [
+        "warning"
+      ]
+    },
+    {
+      "mark_style": "stippled_underline",
+      "priority": 1,
+      "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+      "icon": "dot",
+      "types": [
+        "error"
+      ]
+    }
+  ]
+}

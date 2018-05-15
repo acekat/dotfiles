@@ -1,0 +1,36 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Alignment",
+		"Color Highlighter",
+		"DashDoc",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"EditorConfig",
+		"Emmet",
+		"GitGutter",
+		"Jade",
+		"MarkdownLivePreview",
+		"Package Control",
+		"PackageResourceViewer",
+		"Ruby Slim",
+		"Sass",
+		"SCSS",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-eslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-rubocop",
+		"SublimeLinter-ruby",
+		"Theme - Primer",
+		"Vue Syntax Highlight"
+	]
+}

@@ -1,0 +1,6 @@
+[
+  // alignment
+  { "keys": ["super+shift+a"], "command": "alignment" },
+  // paste & indent
+  { "keys": ["super+v"], "command": "paste_and_indent" }
+]

@@ -1,0 +1,52 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"/Users/vcassat/Projects/quoifaire/bo/old-src/**"
+	],
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/User/SublimeLinter/Solarized (dark) (SL).tmTheme",
+	"copy_with_empty_selection": false,
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "hack",
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"SublimeLinter-annotations",
+		"SublimeLinter-eslint",
+		"SublimeLinter-json",
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"rulers":
+	[
+		120
+	],
+	"show_encoding": true,
+	"tab_size": 2,
+	"theme": "Primer Dark.sublime-theme",
+	"theme_primer_sidebar_font_small": true,
+	"theme_primer_sidebar_tree_small": true,
+	"theme_primer_tab_active_orange": true,
+	"theme_primer_tabs_font_small": true,
+	"theme_primer_tabs_small": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
