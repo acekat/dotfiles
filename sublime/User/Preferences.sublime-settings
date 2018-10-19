@@ -26,12 +26,9 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 11,
+	"font_size": 10,
 	"ignored_packages":
 	[
-		"SublimeLinter-annotations",
-		"SublimeLinter-eslint",
-		"SublimeLinter-json",
 		"Vintage"
 	],
 	"open_files_in_new_window": false,
