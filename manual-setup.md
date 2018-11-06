@@ -18,6 +18,12 @@ Symlink binary:
 ln -s /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl ~/.dotfiles/bin/subl
 ```
 
+Symlink configuration:
+```bash
+ln -s ~/.dotfiles/sublime/User Library/Application\ Support/Sublime\ Text\ 3/Packages/
+ln -s ~/.dotfiles/sublime/Theme\ -\ Primer/ Library/Application\ Support/Sublime\ Text\ 3/Packages/
+```
+
 ### Packages
 Manual installation of [Package Control](https://packagecontrol.io/installation)
 

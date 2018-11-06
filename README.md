@@ -31,4 +31,3 @@ TO-DO
 
 * improve Terminal colors
 * add vim configuration
-* add ST configuration
