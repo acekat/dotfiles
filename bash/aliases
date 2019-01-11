@@ -87,9 +87,11 @@ fi
 
 alias d="docker"
 alias da="docker ps -a"
-alias dcp="docker container prune"
 alias di="docker images"
-alias dip="docker image prune"
+alias dcon="docker container"
+alias dima="docker image"
+alias dvol="docker volume"
+alias dnet="docker network"
 alias dcbuild="docker-compose build"
 alias dcup="docker-compose up"
 alias dcupb="docker-compose up --build"
