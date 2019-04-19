@@ -1,0 +1,82 @@
+" ~/.vimrc
+
+set nocompatible  " don't behave Vi-compatible as uch as possible
+
+let mapleader = "\<Space>"
+
+
+" ===
+" plugins (junegunn/vim-plug)
+" ===
+call plug#begin('~/.vim/bundle')
+
+"Plug 'tpope/vim-sensible'
+
+Plug 'altercation/vim-colors-solarized'
+Plug 'ctrlpvim/ctrlp.vim'
+
+call plug#end()
+
+
+" ===
+" colors
+" ===
+syntax enable
+set background=dark
+colorscheme solarized
+
+
+" ===
+" settings
+" ===
+filetype plugin indent on   " enable file type detection
+
+" format
+set backspace=indent,eol,start  " how backspace works at start of line
+set nowrap   " don't wrap long lines
+
+set tabstop=2       " number of spaces that <Tab> in file uses
+set softtabstop=2   " number of spaces that <Tab> uses while editing
+set shiftwidth=2    " number of spaces to use for (auto) indent step
+set expandtab       " use spaces when <Tab> is inserted
+
+set list listchars=tab:»·,trail:·,nbsp:·  " display extra whitespace
+
+set showmatch     " briefly jump to matching bracket if insert one
+
+set ruler   " show cursor line and column in the status line
+set showcmd " show (partial) command in status line
+
+set number          " print the line number in front of each line
+"set numberwidth=5   " number of columns used for the line number
+"set relativenumber  " show relative line number in front of each line
+
+" searching
+set incsearch     " search as characters are entered
+"set hlsearch      " highlight matches with last search pattern
+
+" backup, swap & history
+set backupdir=$HOME/.vim/backups    " list of directories for the backup files
+set directory=$HOME/.vim/swaps      " list of directory names for the swap file
+
+" UI
+set wildmenu      " use menu for command line completion
+
+
+" ===
+" mappings
+" ===
+nmap <leader>ev :vsp $MYVIMRC<cr>
+nmap <leader>sv :source $MYVIMRC<cr>
+
+imap jk <esc>
+imap kj <esc>
+
+nmap <enter> o<esc>
+
+" ===
+" netrw
+" ===
+let g:netrw_liststyle = 3       " set default directory as tree
+let g:netrw_browse_split = 2    " open files in a new vertical split
+let g:netrw_winsize = 25        " % width of the directory split

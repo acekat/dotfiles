@@ -1,4 +1,9 @@
-# Sublime
+# vim
+vim/*
+!vim/vimrc
+
+
+# sublime
 sublime/User/sftp_servers/
 sublime/User/Package Control.cache/
 sublime/User/Package Control.last-run
