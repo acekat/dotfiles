@@ -5,16 +5,13 @@
 	],
 	"installed_packages":
 	[
-		"A File Icon",
 		"Alignment",
 		"Color Highlighter",
-		"DashDoc",
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
-		"Emmet",
-		"GitGutter",
 		"Jade",
+		"JavaScriptNext - ES6 Syntax",
 		"Package Control",
 		"PackageResourceViewer",
 		"Ruby Slim",
