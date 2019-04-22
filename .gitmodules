@@ -1,3 +1,6 @@
 [submodule "themes/solarized"]
 	path = themes/solarized
 	url = git@github.com:altercation/solarized.git
+[submodule "themes/hack-font"]
+	path = themes/hack-font
+	url = https://github.com/source-foundry/Hack.git
