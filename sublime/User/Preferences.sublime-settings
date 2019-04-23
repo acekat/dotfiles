@@ -1,20 +1,16 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/Solarized (dark) (SL).tmTheme",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
 	"copy_with_empty_selection": false,
 	"ensure_newline_at_eof_on_save": true,
+	"extract_sublime_package_ask_on_open": true,
 	"font_face": "hack",
-	"font_options":
-	[
-		"gray_antialias"
-	],
 	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"open_files_in_new_window": false,
 	"rulers":
 	[
 		80,
