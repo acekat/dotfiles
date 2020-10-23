@@ -28,6 +28,7 @@ function mirror_files() {
   link "bash/profile"       ".bash_profile"
   link "git/gitconfig"      ".gitconfig"
   link "git/gitignore"      ".gitignore"
+  link "git/gitattributes"  ".gitattributes"
   link "vim"                ".vim"
   link "vim/vimrc"          ".vimrc"
   # link "tmux/tmux.conf"     ".tmux.conf"

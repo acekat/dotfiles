@@ -1,0 +1,6 @@
+*.css   diff=css
+*.html  diff=html
+*.xhtml diff=html
+*.md    diff=markdown
+*.rb    diff=ruby
+*.rake  diff=ruby
